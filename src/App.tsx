@@ -23,7 +23,7 @@ const App = () => {
           src="https://raw.githubusercontent.com/Vixen-js/template-vanilla-ts/refs/heads/main/src/assets/images/Logo.png"
         />
         <Text id="label2">
-          Yey... You have your first Vixen UI React Application working...
+          Open yout App.tsx file and modify to see the changes
         </Text>
       </View>
     </Window>

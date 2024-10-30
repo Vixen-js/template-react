@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.1.2
     version: 0.1.2
   '@vixen-js/core-react':
-    specifier: ^0.1.6
-    version: 0.1.6(@vixen-js/core@0.1.2)(react@18.3.1)
+    specifier: ^0.2.0
+    version: 0.2.0(@vixen-js/core@0.1.2)(react@18.3.1)
   react:
     specifier: ^18.3.1
     version: 18.3.1
@@ -1014,8 +1014,8 @@ packages:
       - encoding
     dev: true
 
-  /@vixen-js/core-react@0.1.6(@vixen-js/core@0.1.2)(react@18.3.1):
-    resolution: {integrity: sha512-RycN9KeB7GS5EPdQ5UdWQR6dBMwhkxgH3Ps0qfEzIGI3PKika22WI6a6KgaNTFeJm52FGEDfJvM5Cn+Af8atEA==}
+  /@vixen-js/core-react@0.2.0(@vixen-js/core@0.1.2)(react@18.3.1):
+    resolution: {integrity: sha512-nLXCMi0okk++brh1DVrb/c6k6AH2CGB3aHaqNqypZAW8ZNP7dBDONHYG69JXJqMl0GBQwEo0DPf+Bni5GcLozA==}
     peerDependencies:
       '@vixen-js/core': ^0.1.2
       react: ^18.3.1

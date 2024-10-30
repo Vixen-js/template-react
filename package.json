@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon --quiet",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "bundle": "vixen-pkg --initialize vixen-react",
     "release": "vixen-pkg --build ./dist"
@@ -15,7 +15,7 @@
     "@vixen-js/core": "^0.1.2"
   },
   "dependencies": {
-    "@vixen-js/core-react": "^0.1.6"
+    "@vixen-js/core-react": "^0.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
