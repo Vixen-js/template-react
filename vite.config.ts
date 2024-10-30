@@ -28,8 +28,8 @@ export default defineConfig({
     externalize({
       externals: [
         "@vixen-js/core",
-        /.node$/,
         /^vixen-js-plugin-*/,
+        /.node$/,
         "fs",
         "path",
         "events",
