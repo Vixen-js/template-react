@@ -16,13 +16,13 @@ export default defineConfig({
         /.node$/,
         "fs",
         "path",
-        "events",
-      ],
+        "events"
+      ]
     },
     lib: {
       entry: [resolve(__dirname, "src/main.tsx")],
-      formats: ["cjs"],
-    },
+      formats: ["cjs"]
+    }
   },
   plugins: [
     externalize({
@@ -32,9 +32,9 @@ export default defineConfig({
         /.node$/,
         "fs",
         "path",
-        "events",
-      ],
+        "events"
+      ]
     }),
-    react(),
-  ],
+    react()
+  ]
 });

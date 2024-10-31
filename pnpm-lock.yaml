@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@vixen-js/core':
-    specifier: ^0.1.2
-    version: 0.1.2
+    specifier: ^0.1.3
+    version: 0.1.3
   '@vixen-js/core-react':
-    specifier: ^0.2.0
-    version: 0.2.0(@vixen-js/core@0.1.2)(react@18.3.1)
+    specifier: ^0.3.1
+    version: 0.3.1(@vixen-js/core@0.1.3)(react@18.3.1)
   react:
     specifier: ^18.3.1
     version: 18.3.1
@@ -1014,22 +1014,22 @@ packages:
       - encoding
     dev: true
 
-  /@vixen-js/core-react@0.2.0(@vixen-js/core@0.1.2)(react@18.3.1):
-    resolution: {integrity: sha512-nLXCMi0okk++brh1DVrb/c6k6AH2CGB3aHaqNqypZAW8ZNP7dBDONHYG69JXJqMl0GBQwEo0DPf+Bni5GcLozA==}
+  /@vixen-js/core-react@0.3.1(@vixen-js/core@0.1.3)(react@18.3.1):
+    resolution: {integrity: sha512-XSwKK5SX5IBPjQ00DVBI7C11ZaKWvuBls8Evux5BRveN80h3RvnYwuElqp0asEmyoOrZDcFTsbAc6+z8+nQgAA==}
     peerDependencies:
-      '@vixen-js/core': ^0.1.2
+      '@vixen-js/core': ^0.1.3
       react: ^18.3.1
     dependencies:
       '@types/react-reconciler': 0.28.8
-      '@vixen-js/core': 0.1.2
+      '@vixen-js/core': 0.1.3
       react: 18.3.1
       react-deep-force-update: 2.1.3
       react-proxy: 1.1.8
       react-reconciler: 0.29.2(react@18.3.1)
     dev: false
 
-  /@vixen-js/core@0.1.2:
-    resolution: {integrity: sha512-j+FR45MNFh4qOegZlUwsXqv6+qYcFvDWNkzlQBZeViPaRKhbnEvUGjX6De9CUZSeMxFbJ4tVTcd/YG5fAyOfDA==}
+  /@vixen-js/core@0.1.3:
+    resolution: {integrity: sha512-Eu/L6utVETFXHKLzBqRUc1RAz7MrtEdmvJWIvTxPaKV3iPjgCIG/XUQ9lyGB/GAGZxg2RF1+Z6fAU8Ua7SLmIA==}
     engines: {node: '>=18.12.x'}
     hasBin: true
     requiresBuild: true
