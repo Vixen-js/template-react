@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@vixen-js/core':
-    specifier: ^0.1.3
-    version: 0.1.3
-  '@vixen-js/core-react':
     specifier: ^0.3.2
-    version: 0.3.2(@vixen-js/core@0.1.3)(react@18.3.1)
+    version: 0.3.2
+  '@vixen-js/core-react':
+    specifier: ^0.5.1
+    version: 0.5.1(@vixen-js/core@0.3.2)(react@18.3.1)
   react:
     specifier: ^18.3.1
     version: 18.3.1
@@ -1247,29 +1247,29 @@ packages:
       - encoding
     dev: true
 
-  /@vixen-js/core-react@0.3.2(@vixen-js/core@0.1.3)(react@18.3.1):
-    resolution: {integrity: sha512-BJpqiUY61dKu9V/baN2D+zBd8GbLNyhobFDFJbB5PQFfnhAw9HSkcz4/Zy/bPLbA5X45GlaNg4Eh8jYg/qSX3w==}
+  /@vixen-js/core-react@0.5.1(@vixen-js/core@0.3.2)(react@18.3.1):
+    resolution: {integrity: sha512-CUAncGaLVcjmpTIOMUF3WtuolNrtWmVMoojN99nwyKnWcnySc93XAbajJOxLSrKL5zhgsU2hP53Ya/X+ySOZIg==}
     peerDependencies:
-      '@vixen-js/core': ^0.1.3
+      '@vixen-js/core': ^0.3.2
       react: ^18.3.1
     dependencies:
       '@types/react-reconciler': 0.28.8
-      '@vixen-js/core': 0.1.3
+      '@vixen-js/core': 0.3.2
       react: 18.3.1
       react-deep-force-update: 2.1.3
       react-proxy: 1.1.8
       react-reconciler: 0.29.2(react@18.3.1)
     dev: false
 
-  /@vixen-js/core@0.1.3:
-    resolution: {integrity: sha512-Eu/L6utVETFXHKLzBqRUc1RAz7MrtEdmvJWIvTxPaKV3iPjgCIG/XUQ9lyGB/GAGZxg2RF1+Z6fAU8Ua7SLmIA==}
+  /@vixen-js/core@0.3.2:
+    resolution: {integrity: sha512-QK41cXWvfG15vR5gZwrvBZCCIu5jwQaZzZPUvdS9/aZoookoFvSA+sAAyAYSbCsabk+NkJOZiS793qgqhI0hOA==}
     engines: {node: '>=18.12.x'}
     hasBin: true
     requiresBuild: true
     dependencies:
       '@nodegui/qode': 18.12.1
       '@paralleldrive/cuid2': 2.2.2
-      '@vixen-js/pkg-installer': 0.2.1
+      '@vixen-js/pkg-installer': 0.3.0
       '@vixen-js/postqcss-autoprefixer': 0.2.0
       bindings: 1.5.0
       cmake-js: 7.3.0
@@ -1292,6 +1292,17 @@ packages:
       env-paths-ts: 1.0.1
       mkdirp: 3.0.1
       progress: 2.0.3
+    dev: true
+
+  /@vixen-js/pkg-installer@0.3.0:
+    resolution: {integrity: sha512-WSJ8Royb5fNV+4AkWdULdcfBs3OYF/Z1Qu5Yi5Kp+l2EIY4FIxJkqy6eig2z29JqdqJkpWsl8mAocZV5lm74Ow==}
+    engines: {node: '>=18.9.0'}
+    dependencies:
+      7zip-min: 1.4.5
+      env-paths-ts: 1.0.1
+      mkdirp: 3.0.1
+      progress: 2.0.3
+    dev: false
 
   /@vixen-js/plugin-import-flat@0.1.0:
     resolution: {integrity: sha512-BeyT41kb1PyobBRGwdcOi3LMssIYmDwko/iQsUmTVMfqvE8yW/Ctn3e7Dam2d+UcMFLBFT3Y0V1/jjHXfV70KA==}
